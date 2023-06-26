@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+.main {
+  font-family: Manrope, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 6rem;
+  min-height: 100vh;
+  background-color: hsl(218, 23%, 16%);
+}
+
+.box {
+  position: relative;
+  text-align: center;
+  background-color: hsl(217, 19%, 24%);
+  color: hsl(193, 38%, 86%);
+  height: 40vh;
+  width: 36vw;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.diceBox {
+  position: absolute;
+  top: 90%;
+  left: 43.5%;
+  height: 7.5vh;
+  width: 4.5vw;
+  border-radius: 100%;
+  background-color: hsl(150, 100%, 66%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.bar {
+  margin-top: 38px;
+  margin-bottom: -10px;
+}
+.adviceText {
+  font-size: 3.2vh;
+}
+.paragraph {
+  font-size: 1.4vh;
+  margin: 30px;
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 0.5em;
+}
